@@ -23,12 +23,12 @@ namespace CandyMaker2._0
             
             while(LoopExit == 'y')
             {
-                CandyBuilder Builder2000 = new CandyBuilder(supplier.MaterialSupply, supplier.TasteSupply, supplier.ShapeSupply, supplier.AromaSupply, supplier.ColorSupply, supplier.Weight);
-                Builder2000.Build();
+                CandyBuilder Builder2000 = new CandyBuilder();
+                Builder2000.Build(supplier.MaterialSupply, supplier.TasteSupply, supplier.ShapeSupply, supplier.AromaSupply, supplier.ColorSupply, supplier.Weight);
 
                 Console.WriteLine("Would you like to generate another candy? (y/n)");
                 LoopExit = char.Parse(Console.ReadLine());
-                while (LoopExit!= 'y' && LoopExit != 'y')
+                while (LoopExit!= 'y' && LoopExit != 'n')
                 {
                     Console.WriteLine("Not a valid input. Try again.");
                     LoopExit = char.Parse(Console.ReadLine());

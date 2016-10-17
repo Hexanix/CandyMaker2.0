@@ -13,6 +13,7 @@ namespace CandyMaker2._0
         public abstract string CandyShape { get; set; }
         public abstract string CandyMaterial { get; set; }
         public abstract string CandyTaste { get; set; }
+        public abstract string CandySpecificProperty { get; set; }
 
         //these are variables to hold the optional values for the candy
         protected string candyColor { get; set; }

@@ -24,7 +24,7 @@ namespace CandyMaker2._0
 
         public void BaseMaterialSupplier()
         {
-            Console.WriteLine("Hello! I am your supplier! Now what shall we deliever for you today?");
+            Console.WriteLine("Hello! I am your supplier! Now what shall we deliver for you today?");
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("You have " + (5 - i) + " slots for candy material left! What is your next material request?");
@@ -39,7 +39,7 @@ namespace CandyMaker2._0
                 TasteSupply[i] = Console.ReadLine();
             }
 
-            Console.WriteLine("There are three typs of candy we supply. The first are Bonbons - they're very aromatic!");
+            Console.WriteLine("There are three types of candy we supply. The first are Bonbons - they're very aromatic!");
 
             for (int i = 0; i < 5; i++)
             {

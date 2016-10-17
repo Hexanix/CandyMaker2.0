@@ -9,5 +9,6 @@ namespace CandyMaker2._0
     interface SupplierChecker
     {
         void BaseMaterialSupplier();
+
     }
 }
